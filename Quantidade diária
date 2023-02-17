@@ -1,0 +1,19 @@
+# Define a constante com a quantidade de ml recomendada para cada kg de peso corporal
+RECOMENDACAO_AGUA_POR_PESO = 35
+
+# Solicita ao usuário seu peso em kg
+peso = float(input("Qual é o seu peso em kg? "))
+
+# Calcula a quantidade de água recomendada diariamente
+quantidade_agua = peso * RECOMENDACAO_AGUA_POR_PESO
+
+# Imprime a quantidade recomendada de água por dia
+print(f"Você deve beber aproximadamente {quantidade_agua:.1f} ml de água por dia.")
+
+# Dicas para se manter hidratado
+print("Dicas para se manter hidratado:")
+print("- Beba água regularmente ao longo do dia.")
+print("- Evite bebidas açucaradas, como refrigerantes e sucos industrializados.")
+print("- Tenha sempre uma garrafa de água por perto.")
+print("- Aumente a ingestão de líquidos em dias quentes ou durante a prática de atividades físicas.")
+print("- Preste atenção nos sinais de desidratação, como boca seca e urina escura, e aumente a ingestão de água nesses casos.")
